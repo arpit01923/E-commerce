@@ -9,7 +9,7 @@
 }
 
 .simple-navigation{
-    background-color: var(--white-section);
+    background-color: #7f1d1d;
     border-bottom: 1px solid var(--badge-offline);
 }
 
@@ -20,6 +20,7 @@
 
 .nav-list .list-item{
     font-size: 1.2rem;
+    color: white;
 }
 
 .nav-search{
@@ -34,15 +35,12 @@
     width: 100%;
 }
 
-.sub-container a{
-    margin: .5rem;
-}
-
-.img{
+.img-size{
+    margin: 0;
     object-fit: cover;
     height: auto;
 }
 
 .main-footer{
-    background-color: var(--badge-offline);
+    background-color: #7f1d1d;
 }
