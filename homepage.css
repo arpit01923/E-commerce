@@ -1,0 +1,48 @@
+.logo{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+.nav-search{
+    padding: .2rem;
+}
+
+.simple-navigation{
+    background-color: var(--white-section);
+    border-bottom: 1px solid var(--badge-offline);
+}
+
+.nav-list{
+    font-size: 1rem;
+    width: auto;
+}
+
+.nav-list .list-item{
+    font-size: 1.2rem;
+}
+
+.nav-search{
+    padding-right: 8rem;
+}
+
+.sub-container{
+    display: flex;
+}
+
+.deals{
+    width: 100%;
+}
+
+.sub-container a{
+    margin: .5rem;
+}
+
+.img{
+    object-fit: cover;
+    height: auto;
+}
+
+.main-footer{
+    background-color: var(--badge-offline);
+}
