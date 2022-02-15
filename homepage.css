@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 .logo{
     width: 4rem;
     height: 4rem;
@@ -21,6 +24,29 @@
 .nav-list .list-item{
     font-size: 1.2rem;
     color: white;
+}
+
+.material-icons{
+    position: relative;
+}
+
+.header-text{
+    position: absolute;
+}
+
+.user{
+    top: 3.5rem;
+    right: 11.5rem;
+}
+
+.heart{
+    top: 3.5rem;
+    right: 6.3rem;
+}
+
+.cart{
+    top: 3.5rem;
+    right: 2.5rem;
 }
 
 .nav-search{
