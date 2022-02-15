@@ -76,11 +76,7 @@
     background-color: var(--primary-color);
 }  
 
-.main-footer .footer-link .header{
-    color: var;
-}
-
-.main-footer .footer-link .header,.main-footer .stacked-list .list-item .link{
+.main-footer .footer-link .header, .main-footer .stacked-list .list-item .link{
     color: var(--secondary-color);
 }
 
