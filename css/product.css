@@ -4,7 +4,6 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 5fr;
-    margin: 0;
 }
 
 .drawer{
@@ -15,31 +14,6 @@
 .drawer .heading{
     margin: .5rem;
 }
-
-.stacked-list{
-    border: none;
-    background-color: white;
-    width: auto;
-}
-
-.stacked-list .list-item{
-    border-bottom: none;
-    display: block;
-    padding: .2rem;
-    font-size: 1rem;
-    margin: 0;
-    text-align: left;
-}
-
-.list-item a{
-    text-decoration: none;
-    color: var(--default);
-}
-
-.sub-drawer{
-    margin: auto;
-}
-
 
 .main-content{
     display: flex;
@@ -62,8 +36,3 @@
     height: 70%;
     border-radius: 1rem 1rem 0 0;
 }
-
-.btn{
-    padding: 0;
-}
-

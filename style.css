@@ -84,20 +84,38 @@
     background-color: var(--primary-color);
 }
 
-.main-footer .footer-link .header, .main-footer .retina{
+.main-footer .retina{
     display: flex;
-    margin: 1rem;
+    margin: 2rem;
     width: 20rem;
 }
 
 .main-footer .retina .img-size{
-    margin: 0;
-    width: 5rem;
-    height: 5rem;
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
 }
 
 .main-footer .retina .text{
-    margin-top: 1rem;
     font-size: 1rem;
     color: var(--secondary-color);
+}
+
+.stacked-list{
+    border: none;
+    background-color: white;
+    width: auto;
+}
+
+.stacked-list .list-item{
+    border-bottom: none;
+    display: block;
+    padding: .2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: var(--default);
 }
