@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #7f1d1d;
+    --secondary-color: #f8fafc;
+}
+
+/* Header */
+.logo{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+.nav-search{
+    padding: .2rem;
+}
+
+.simple-navigation{
+    background-color: var(--primary-color);
+}
+
+.nav-list{
+    font-size: 1rem;
+    width: auto;
+}
+
+.nav-list .list-item{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.material-icons{
+    position: relative;
+}
+
+.header-text{
+    position: absolute;
+}
+
+.user{
+    top: 3.5rem;
+    right: 11.5rem;
+}
+
+.heart{
+    top: 3.5rem;
+    right: 6.3rem;
+}
+
+.cart{
+    top: 3.5rem;
+    right: 2.5rem;
+}
+
+.nav-search{
+    padding-right: 8rem;
+}
+
+.sub-container{
+    display: flex;
+}
+
+/* Footer */
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}  
+
+.main-footer .footer-link .header, .main-footer .stacked-list .list-item .link{
+    color: var(--secondary-color);
+}
+
+.main-footer .stacked-list{
+    background-color: var(--primary-color);
+}
+
+.main-footer .retina{
+    display: flex;
+    margin: 2rem;
+    width: 20rem;
+}
+
+.main-footer .retina .img-size{
+    object-fit: cover;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+.main-footer .retina .text{
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.stacked-list{
+    border: none;
+    background-color: white;
+    width: auto;
+}
+
+.stacked-list .list-item{
+    border-bottom: none;
+    display: block;
+    padding: .2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: var(--default);
+}

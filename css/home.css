@@ -1,0 +1,15 @@
+@import "/style.css";
+
+.sub-container{
+    display: flex;
+}
+
+.deals{
+    width: 100%;
+}
+
+.img-size{
+    margin: 0;
+    object-fit: cover;
+    height: auto;
+}
