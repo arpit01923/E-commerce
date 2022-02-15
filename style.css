@@ -25,7 +25,6 @@
 
 .simple-navigation{
     background-color: var(--primary-color);
-    border-bottom: 1px solid var(--badge-offline);
 }
 
 .nav-list{
@@ -84,21 +83,20 @@
     background-color: var(--primary-color);
 }
 
-.main-footer .footer-link .header, .main-footer .retina{
+.main-footer .retina{
     display: flex;
-    margin: 1rem;
+    margin: 2rem;
     width: 20rem;
 }
 
 .main-footer .retina .img-size{
     object-fit: cover;
     margin: 0;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .main-footer .retina .text{
-    margin-top: 1rem;
     font-size: 1rem;
     color: var(--secondary-color);
 }
@@ -114,7 +112,6 @@
     display: block;
     padding: .2rem;
     font-size: 1rem;
-    margin: 0;
     text-align: left;
 }
 
@@ -122,4 +119,3 @@
     text-decoration: none;
     color: var(--default);
 }
-
