@@ -91,6 +91,7 @@
 }
 
 .main-footer .retina .img-size{
+    object-fit: cover;
     margin: 0;
     width: 5rem;
     height: 5rem;
@@ -100,4 +101,24 @@
     margin-top: 1rem;
     font-size: 1rem;
     color: var(--secondary-color);
+}
+
+.stacked-list{
+    border: none;
+    background-color: white;
+    width: auto;
+}
+
+.stacked-list .list-item{
+    border-bottom: none;
+    display: block;
+    padding: .2rem;
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: var(--default);
 }
