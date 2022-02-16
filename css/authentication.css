@@ -1,69 +1,76 @@
 @import "/style.css";
 
-body{
-    box-sizing: border-box;
-    background-color: var(--primary-color);
+body {
+  box-sizing: border-box;
+  background-color: var(--primary-color);
 }
-.container{
-    margin: auto;
-    padding: 2rem;
-    background-color: var(--secondary-color);
-    width: 20rem;
-}
-
-/* p{
-    margin: 0;
-} */
-
-.img{
-    width: 3rem;
-    height: 3rem;
+.container {
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  width: 20rem;
 }
 
-.signin{
-    border: 1px solid thistle;
-    padding: .4rem 3rem;
-    text-align: center;
-    border-radius: 1rem;
-    text-decoration: none;
-    color: var(--default);
+.img {
+  width: 3rem;
+  height: 3rem;
 }
 
-.inp{
-    margin: 1rem 0;
-    width: 85%;
-    padding: .5rem 1rem;
-    border-radius: 1rem;
-    border: 1px solid var(--default);
-    text-decoration: none;
-    color: var(--default);
+.signin {
+  border: 1px solid thistle;
+  padding: 0.4rem 3rem;
+  text-align: center;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--default);
 }
 
-.submit{
-    padding: .5rem;
-    border-radius: 1rem;
-    border: 1px solid var(--default);
-    width: 100%;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    cursor: pointer;
-    text-decoration: none;
-    margin: .5rem;
+.inp {
+  margin: 1rem 0;
+  width: 85%;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--default);
+  text-decoration: none;
+  color: var(--default);
 }
 
-.logout .primary{
-    text-decoration: none;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    padding: .5rem .2rem;
-    border-radius: 1rem;
+.submit {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--default);
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0.5rem;
 }
 
-.logout .secondary{
-    text-decoration: none;
-    color: var(--default);
-    border: 1px solid;
-    padding: .5rem .2rem;
-    margin: .2rem;
-    border-radius: 1rem;
+.logout-icon,
+.login-icon {
+  text-align: center;
+}
+
+.logout-icon .material-icons-outlined,
+.login-icon .material-icons-outlined {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.logout .primary {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 0.5rem 0.2rem;
+  border-radius: 1rem;
+}
+
+.logout .secondary {
+  text-decoration: none;
+  color: var(--default);
+  border: 1px solid;
+  padding: 0.5rem 0.2rem;
+  margin: 0.2rem;
+  border-radius: 1rem;
 }
