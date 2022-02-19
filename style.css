@@ -16,10 +16,13 @@
   margin: 0;
 }
 
+.margin-bottom-0_5{
+    margin-bottom: 1rem;
+}
+
 .padding-0{
   padding: 0;
 }
-
 
 /* Header */
 .logo {
