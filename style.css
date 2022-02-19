@@ -12,6 +12,18 @@
   --secondary-color: #f8fafc;
 }
 
+.margin-0{
+  margin: 0;
+}
+
+.margin-bottom-0_5{
+    margin-bottom: 1rem;
+}
+
+.padding-0{
+  padding: 0;
+}
+
 /* Header */
 .logo {
   width: 4rem;
@@ -55,9 +67,35 @@
   right: 6.3rem;
 }
 
+.heart .material-icons{
+  position: absolute;
+  top: -2.5rem;
+  right: -0.1rem;
+}
+
+.heart .num-items{
+  color: var(--primary-color);
+  position: absolute;
+  top: -2.5rem;
+  right: 0.4rem;
+}
+
 .cart {
   top: 3.5rem;
   right: 2.5rem;
+}
+
+.cart .material-icons{
+  position: absolute;
+  top: -2.5rem;
+  right: -1.2rem;
+}
+
+.cart .num-items{
+  color: var(--primary-color);
+  position: absolute;
+  top: -2.5rem;
+  right: -0.7rem;
 }
 
 .nav-search {
