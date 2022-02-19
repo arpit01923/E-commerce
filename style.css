@@ -24,7 +24,7 @@
   padding: 0;
 }
 
-/* Header */
+/* Nav */
 .logo {
   width: 4rem;
   height: 4rem;
@@ -104,6 +104,17 @@
 
 .sub-container {
   display: flex;
+}
+
+/* Header */
+
+.head{
+    font-size: 1rem;
+}
+
+.head .home, .head .product{
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* Footer */
