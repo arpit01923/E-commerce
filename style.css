@@ -110,11 +110,18 @@
 
 .head{
     font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head .home, .head .product{
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.head .logout{
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 /* Footer */
