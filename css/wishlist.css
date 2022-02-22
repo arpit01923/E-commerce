@@ -4,6 +4,11 @@
     height: auto;
 }
 
+.sub-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .fa-shopping-cart{
     padding: 0 0.5rem;
 }

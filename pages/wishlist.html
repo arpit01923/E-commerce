@@ -13,39 +13,47 @@
     <link rel="stylesheet" href="/css/wishlist.css" />
   </head>
   <body>
-    <nav class="simple-navigation">
+        <nav class="simple-navigation">
       <img class="logo" src="/assets/e-commerce.png" alt="logo" />
       <div class="nav-list">
-        <a class="list-item" href="#">Men</a>
-        <a class="list-item" href="#">Women</a>
-        <a class="list-item" href="#">Kids</a>
-        <a class="list-item" href="#">Home & Living</a>
-        <a class="list-item" href="#">Beauty</a>
+        <a class="list-item" id="items-disabled" href="#">Men</a>
+        <a class="list-item" id="items-disabled" href="#">Women</a>
+        <a class="list-item" id="items-disabled" href="#">Kids</a>
+        <a class="list-item" id="items-disabled" href="#">Home & Living</a>
+        <a class="list-item" id="items-disabled" href="#">Beauty</a>
         <input
           class="nav-search"
+          id="items-disabled"
           type="text"
           placeholder="Search for product, brands and more"
         />
-        <a class="list-item text" href="/pages/login.html"
+
+        <div class="list-item icons">
+          <a class="profile " href="/pages/login.html"
           ><span class="material-icons"> account_circle </span>
-          <p class="header-text user">Profile</p></a
+          <span class="header-text">Profile</span></a
         >
-        <a class="list-item text" href="/pages/wishlist.html"
+
+        <a class="wishlist " href="/pages/wishlist.html"
           ><span class="material-icons"> favorite </span>
-          <p class="header-text heart">
+          <span class="header-text">
             Wishlist
-            <span class="material-icons"> circle </span>
-            <span class="num-items">6</span>
-          </p></a
+          </span>
+          <span class="material-icons badge"> circle </span>
+          <span class="num-items">6</span>
+        </a
         >
-        <a class="list-item text" href="/pages/cart.html"
+        
+        <a class="cart" href="/pages/cart.html"
           ><span class="material-icons"> shopping_cart </span>
-          <p class="header-text cart">
+          <span class="header-text">
             Cart
-            <span class="material-icons"> circle </span>
-            <span class="num-items">6</span>
-          </p></a
+          </span>
+          <span class="material-icons badge"> circle </span>
+          <span class="num-items">6</span>
+          </a
         >
+        </div>
       </div>
     </nav>
 
@@ -209,8 +217,8 @@
       </main>
     </section>
 
-    <footer class="main-footer">
-      <div class="footer-link">
+    <footer class="main-footer" >
+      <div class="footer-link" id="items-disabled">
         <h2 class="header"><u>Online Shopping</u></h2>
         <ul class="stacked-list">
           <li class="list-item">
@@ -233,7 +241,7 @@
         </ul>
       </div>
 
-      <div class="footer-link">
+      <div class="footer-link" id="mob-disabled">
         <h3 class="header"><u>Contacts</u></h3>
         <ul class="stacked-list">
           <li class="list-item">

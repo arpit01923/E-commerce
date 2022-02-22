@@ -17,6 +17,7 @@
 
 .main-content{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -25,7 +26,6 @@
     padding: 0;
     width: 12rem;
     height: 15rem;
-    flex: 1 1 auto;
 }
 .card-text{
     padding: 0 1rem;
